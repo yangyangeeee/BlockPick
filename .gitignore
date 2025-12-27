@@ -22,3 +22,33 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
+.env
+.env.*
+
+# Test / Coverage
+coverage/
+*.lcov
+
+# Cache / Temp
+.cache/
+.tmp/
+temp/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Frontend (Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*.local
+
+# Backend (Spring/Gradle/Maven)
+backend/.gradle/
+backend/build/
+backend/target/
+backend/.env
+backend/.env.*.local
