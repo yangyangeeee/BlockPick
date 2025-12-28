@@ -19,3 +19,4 @@ public class AuthResponse {
 //   "loginId": "yang",
 //   "nickname": "양양이"
 // }
+//
